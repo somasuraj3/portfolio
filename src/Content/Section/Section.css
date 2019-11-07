@@ -1,0 +1,16 @@
+.Section {
+    padding: 0 0;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
+
+.SectionLabel {
+    padding: 0;
+    display: flex;
+    /* color: #ecf0f1; */
+    flex-flow: row;
+    background: #fff;
+    /* height: 40vh; */
+    width: 100%;
+}

@@ -1,0 +1,82 @@
+.App {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  flex-flow: column;
+}
+
+.Section {
+  padding: 0 0;
+  display: flex;
+  color: #ecf0f1;
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
+
+.SectionLabel {
+  padding: 0;
+  display: flex;
+  /* color: #ecf0f1; */
+  flex-flow: row;
+  background: #fff;
+  height: 40vh;
+  width: 100%;
+}
+
+.WorkSectionLabel {
+  padding: 0;
+  display: flex;
+  color: black;
+  flex-flow: row;
+  background: #fff;
+  height: 40vh;
+  width: 100%;
+}
+
+.SkillsSectionLabel {
+  padding: 0;
+  display: flex;
+  /* color: #ecf0f1; */
+  flex-flow: row;
+  background: #fff;
+  height: 40vh;
+  width: 100%;
+}
+
+.AboutSectionLabel {
+  padding: 0;
+  display: flex;
+  /* color: #ecf0f1; */
+  flex-flow: row;
+  background: #fff;
+  height: 40vh;
+  width: 100%;
+}
+
+.ContactSectionLabel {
+  padding: 0;
+  display: flex;
+  /* color: #ecf0f1; */
+  flex-flow: row;
+  background: #fff;
+  height: 40vh;
+  width: 100%;
+}
+
+.WorkSection {
+  background: #a29bfe;
+}
+
+.AboutSection {
+  background: #74b9ff;
+}
+
+.SkillsSection {
+  background: #81ecec;
+}
+
+.ContactSection {
+  background: #55efc4;
+}
