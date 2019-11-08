@@ -8,10 +8,11 @@ const navbar = (props) => {
                 <div className={classes.Logo}>
                     <span>Portfolio</span></div>
                 <ul className={classes.NavItems}>
-                    <li className={classes.NavItem}><a className={classes.Link} href="#work">Work</a></li>
-                    <li className={classes.NavItem}><a className={classes.Link} href="#skills">Skills</a></li>
-                    <li className={classes.NavItem}><a className={classes.Link} href="#about">About</a></li>
-                    <li className={classes.NavItem}><a className={classes.Link} href="#contact">Contact</a></li>
+                    {props.children}
+                    {/* <a className={classes.Link} href="#work">   <li className={classes.NavItem}>Work</li></a>
+                    <a className={classes.Link} href="#skills"> <li className={classes.NavItem}>Skills</li></a>
+                    <a className={classes.Link} href="#about">  <li className={classes.NavItem}>About</li></a>
+                    <a className={classes.Link} href="#contact"><li className={classes.NavItem}>Contact</li></a> */}
                 </ul>
                 <div className={classes.Hamberger}>
                     <div className={classes.Line}></div>

@@ -1,0 +1,33 @@
+.SectionHeader {
+    padding: 60px 20px;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    justify-content: center;
+    box-sizing: border-box;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+}
+
+.SectionHeader::before, .SectionHeader::after {
+    content: '';
+    display: flex;
+    position: absolute;
+    background: inherit;
+    height: 100px;
+    width: 200px;
+    bottom: -20px;
+    /* transform: rotate(45deg); */
+    z-index: -1;
+}
+
+.SectionHeader::before {
+    left: 50%;
+    transform: skewY(-30deg);
+}
+
+.SectionHeader::after {
+    right: 50%;
+    transform: skewY(30deg);
+}

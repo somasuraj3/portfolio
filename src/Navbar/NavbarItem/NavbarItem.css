@@ -1,0 +1,30 @@
+.NavbarItem {
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: inherit;
+}
+
+.Link {
+    text-decoration: none;
+    color: #2c3e50;
+    height: 100%;
+    /* background: #ecf0f1; */
+}
+
+
+/* .NavbarItem:hover {
+    color: #ecf0f1;
+}
+
+
+.NavbarItem:hover a {
+    color: #ecf0f1;
+} */
